@@ -13,12 +13,12 @@ A Max for Live device for controlling [MotionHub](https://github.com/jp206100/mo
 
 | Parameter | OSC Address | Description |
 |-----------|-------------|-------------|
-| Intensity | `/motionhub/intensity` | Visual intensity (0-1) |
 | Glitch | `/motionhub/glitch` | Glitch amount (0-1) |
+| Color Shift | `/motionhub/colorshift` + `/motionhub/intensity` | Color shift & intensity (0-1) |
 | Speed | `/motionhub/speed` | Animation speed (1-4x) |
-| Color Shift | `/motionhub/colorshift` | Color shift amount (0-1) |
 | Freq Min | `/motionhub/freqmin` | Minimum frequency in Hz |
 | Freq Max | `/motionhub/freqmax` | Maximum frequency in Hz |
+| Pulse | `/motionhub/pulse` | Pulse effect amount (0-1) |
 | Monochrome | `/motionhub/monochrome` | Toggle monochrome mode |
 | Reset | `/motionhub/reset` | Reset visuals trigger |
 
