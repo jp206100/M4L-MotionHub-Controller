@@ -1,5 +1,7 @@
 # M4L MotionHub Controller
 
+**v1.1.0**
+
 A Max for Live device for controlling [MotionHub](https://github.com/jp206100/motion-hub) visuals via OSC from Ableton Live.
 
 ## Features
